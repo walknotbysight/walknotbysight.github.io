@@ -1,0 +1,287 @@
+/*星号表示所有的元素*/
+*{
+	margin:0px;
+	padding:0px;
+	font-size:12px;
+	text-decoration:none;/*无下划线*/
+	list-style-type:none;/*无项目符号*/
+	
+}
+body {
+	background-color:#EBF7FF;
+}
+
+#lgc_container {
+	width:880px;
+	margin:0px auto 0px auto;
+}
+/*导航设计*/
+#lgc_globallink {
+	background-image:url(../lsjdImages/banner.jpg);
+	height:200px;
+	
+}
+#lgc_globallink ul{
+	padding:178px 5px 0px 490px;
+}
+#lgc_globallink ul li{
+	float:left;
+	padding-right:28px;
+}
+#lgc_globallink ul li a{
+	display:block;
+	line-height:18px;
+	color:#FFFFFF;
+
+}
+#lgc_globallink ul li a:hover{
+	text-decoration:underline;
+	color:#FFFF00;
+}
+/*------------------所有联接-------------------------*/
+#lgc_links{
+	margin-top:10px;
+	float:right;
+	background-image:url(../lsjdImages/content_bg.jpg);
+	color:#FFFFFF;
+}
+
+#lgc_links div{
+	background-repeat:no-repeat;
+	padding-top:30px;
+}
+
+#lgc_links ul{
+	padding:10px 0px 0px 5px;
+}
+#lgc_links div p{
+	text-align:right;
+	margin:10px 10px 20px 0px;
+}
+
+#lgc_links ul li{
+	background-repeat:no-repeat;
+	background-position:left 6px;
+	padding-left:10px;
+	line-height:18px;
+}
+
+/*lgc_links_1,2,3,4的a统一的样式*/
+#lgc_links a{
+	color:#C4DBE2;
+}
+/*lgc_links_1,2,3,4的a.author统一的样式*/
+#lgc_links ul li a.author {
+ 	color:#2DC4ED;
+}
+/*lgc_links_1,2,3,4的a:hover统一的样式*/
+#lgc_links a:hover{
+	
+}
+/*lgc_links_1,2,3,4的a.author:hover统一的样式*/
+#lgc_links ul li a.author:hover {
+	
+}
+
+#lgc_links #lgc_links_1{
+	background-image:url(../lsjdImages/lstatistics.jpg);
+}
+#lgc_links #lgc_links_2{
+	background-image:url(../lsjdImages/lhotblog.jpg);
+}
+#lgc_links #lgc_links_3{
+	background-image:url(../lsjdImages/lrecent.jpg);
+
+}
+#lgc_links #lgc_links_4{
+	background-image:url(../lsjdImages/lapply.jpg);
+}
+#lgc_links #lgc_links_1 ul li{
+	background-image:url(../lsjdImages/arrow1.gif);
+}
+#lgc_links #lgc_links_2 ul li{
+	background-image:url(../lsjdImages/arrow2.gif);
+}
+#lgc_links #lgc_links_3 ul li{
+	background-image:url(../lsjdImages/arrow3.gif);
+}
+#lgc_links #lgc_links_4 ul li{
+	background-image:url(../lsjdImages/arrow3.gif);
+}
+
+/*------------------所有联接------结束-------------------*/
+
+
+/*------------------主体正文-------------------------*/
+#lgc_main{
+float:left;
+width:704px;
+margin-top:10px;
+color:#000000;
+}
+
+#lgc_main div{
+	border:1px solid #226C81;
+	margin-bottom:10px;
+	background-repeat:no-repeat;
+}
+#lgc_main a{
+	color:#227086;
+}
+#lgc_main ul{
+	padding:7px 8px 7px 15px;
+}
+#lgc_main li{
+	line-height:18px;
+}
+#lgc_main form input{
+	margin-left:5px;
+	margin-right:5px;
+	
+}
+#lgc_main form input.myBtnStyle{
+	border:1px solid #226C81;
+	background-color:#EBF7FF;
+	color:#226C81;
+	padding-top:1px;
+	height:17px;
+	
+}
+#lgc_main form input.myTxtStyle{
+	border:1px solid #226C81;
+	background-color:#EBF7FF;
+	color:#226C81;
+	padding-top:1px;
+	width:100px;
+	height:14px;
+}
+
+/*博客推荐*/
+#lgc_main #lgc_main_1{
+	float:right;
+	background-image:url(../lsjdImages/recommendblog.jpg);
+	height:125px;
+	width:345px;
+	padding-left:35px;
+	padding-top:15px;
+
+}
+#lgc_main #lgc_main_1 ul{
+	padding-top:10px;
+}
+#lgc_main #lgc_main_1 p a.jenniferColor1{
+	margin-left:15px;
+	color:#00536B;
+}
+#lgc_main #lgc_main_1 p a.jenniferColor2{
+	color:#000000;
+	margin-left:200px;	
+}
+
+#lgc_main #lgc_main_1 ul{
+	padding-left:8px;	
+}
+#lgc_main #lgc_main_1 ul li{
+	background-image:url(../lsjdImages/arrow4.gif);
+	background-repeat:no-repeat;
+	background-position:left 5px;
+	padding-left:10px;
+}
+/*日期时间*/
+#lgc_main #lgc_main_2{
+	float:left;
+	background-image:url(../lsjdImages/time.jpg);	
+	height:140px;
+	background-color:#A3D7FF;
+	padding-left:50px;
+	width:260px;
+}
+#lgc_main #lgc_main_2 ul li{
+	float:left;
+	width:24px;
+}
+#lgc_main #lgc_main_2 ul p{
+	line-height:22px;
+	color:#946C2C;
+}
+#lgc_main #lgc_main_2 ul p.pColor2{
+	color:#812319;
+	
+}
+
+/*博客搜索*/
+#lgc_main #lgc_main_3{
+	clear:both;
+	background-image:url(../lsjdImages/blogsearch.jpg);
+	height:32px;
+	padding-left:150px;
+}
+#lgc_main #lgc_main_3 ul li{
+	float:left;
+}
+/*用户登录*/
+#lgc_main #lgc_main_4{
+	height:35px;
+	
+}
+#lgc_main #lgc_main_4 ul li{
+	float:left;
+	background-image:url(../lsjdImages/arrow5.gif);
+	background-repeat:no-repeat;
+	background-position:3px center;
+	padding:3px 0px 0px 10px;
+	
+}
+/*样式推荐*/
+#lgc_main #lgc_main_5{
+	background-image:url(../lsjdImages/recommendart.jpg);
+	padding-top:35px;
+	height:125px;
+
+}
+#lgc_main #lgc_main_5 ul,#lgc_main #lgc_main_6 ul{
+	/*padding:7px 8px 7px 15px;*/   /*继承而来*/
+	padding:0px 0px 0px 0px;
+	margin:7px 8px 7px 15px;
+}
+#lgc_main #lgc_main_5 ul li,#lgc_main #lgc_main_6 ul li{
+	background-image:url(../lsjdImages/arrow6.gif);
+	background-repeat:no-repeat;
+	background-position:left center;
+	padding-left:5px;
+}
+#lgc_main #lgc_main_5 ul li{
+	float:left;
+	width:330px;
+}
+#lgc_main #lgc_main_5 ul li a.author2{
+	color:#000000;
+}
+
+/*最新更新*/
+#lgc_main #lgc_main_6{
+	background-image:url(../lsjdImages/newnode.jpg);
+	padding-left:35px;
+	height:200px;
+}
+#lgc_main #lgc_main_6 ul li{
+	float:left;
+	width:295px;
+}
+/*------------------主体正文-------end------------------*/
+
+
+/*------------------页脚-------------------------*/
+#lgc_footer{
+	margin-top:30px;
+	text-align:center;
+	color:#226C81;
+	padding-bottom:20px;
+}
+#lgc_footer ul li{
+	line-height:18px;
+}
+#lgc_footer ul li a{
+	color:#226C81;
+}
+/*------------------页脚------------end-------------*/

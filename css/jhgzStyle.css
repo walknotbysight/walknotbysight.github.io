@@ -1,0 +1,291 @@
+/*星号表示所有的元素*/
+*{
+	margin:0px;
+	padding:0px;
+	font-size:12px;
+	text-decoration:none;/*无下划线*/
+	list-style-type:none;/*无项目符号*/
+}
+body {
+	background-color:#000000;
+	background-image:url(../jhgzImages/body_bg.jpg);
+	background-repeat:repeat-y;
+	background-position:center;
+}
+#lgc_container {
+	width:800px;
+	margin:0px auto 0px auto;
+	background-image:url(../jhgzImages/container_bg.jpg);
+	background-repeat:no-repeat;
+	background-position:right bottom;
+}
+/*------------------导航设计-------------------------*/
+#lgc_globallink {
+	background-image:url(../jhgzImages/banner.jpg);
+	height:430px;
+}
+#lgc_globallink ul{
+	float:right;
+	margin:72px 0px 0px 0px;
+	
+}
+#lgc_globallink ul li{
+	padding:0px 11px 18px 0px;
+}
+#lgc_globallink ul li a{
+	display:block;
+	width:25px;
+	line-height:15px;
+	color:#FFFFFF;
+
+}
+#lgc_globallink ul li a:hover{
+	text-decoration:underline;
+	color:#FFFF00;
+}
+/*------------------导航设计--------结束-----------------*/
+
+
+/*------------------所有联接-------------------------*/
+#lgc_links {
+	background-color:#3E3226;
+	width:196px;
+	float:left;
+	margin-top:-88px;
+	color:#BB9D80;
+	background-image:url(../jhgzImages/parabottom.jpg);
+	background-repeat:no-repeat;
+	background-position:left bottom;
+
+}
+
+/*提取公共的一样的样式*/
+#lgc_links #lgc_links_2,#lgc_links #lgc_links_3,#lgc_links #lgc_links_4{
+	background-repeat:no-repeat;
+	padding-top:28px;
+}
+/*lgc_links_1,2,3,4的UL都是统一的样式*/
+#lgc_links ul{
+	margin:15px 0px 0px 15px;
+}
+/*lgc_links_1,2,3,4的LI都是统一的样式除了背景图片不一样,其它都一样*/
+#lgc_links ul li{
+	background-repeat:no-repeat;
+	background-position:left center;
+	padding-left:10px;
+	line-height:17px;
+}
+/*lgc_links_1,2,3,4的p都是统一的样式*/
+#lgc_links p{
+	margin:10px 8px 20px 0px;
+	text-align:right;
+}
+/*lgc_links_1,2,3,4的a统一的样式*/
+#lgc_links a{
+	color:#BAAA9A;
+}
+/*lgc_links_1,2,3,4的a.author统一的样式*/
+#lgc_links ul li a.author {
+ 	color:#A9733F;
+}
+/*lgc_links_1,2,3,4的a:hover统一的样式*/
+#lgc_links a:hover{
+	text-decoration:underline;
+	color:#CCFF66;
+}
+/*lgc_links_1,2,3,4的a.author:hover统一的样式*/
+#lgc_links ul li a.author:hover {
+	text-decoration:none;/*因为此处的a ,会继承#lgc_links a:hover带下划线的效果,所以要特别指定取消下划线*/
+	color:#CD6839;
+}
+
+#lgc_links #lgc_links_1{
+	
+}
+#lgc_links #lgc_links_2{
+	background-image:url(../jhgzImages/lhotblog.jpg);
+}
+#lgc_links #lgc_links_3{
+	background-image:url(../jhgzImages/lrecent.jpg);
+}
+#lgc_links #lgc_links_4{
+	background-image:url(../jhgzImages/lapply.jpg);
+}
+
+#lgc_links #lgc_links_1 ul li{
+	background-image:url(../jhgzImages/arrow1.gif);
+}
+#lgc_links #lgc_links_2 ul li{
+	background-image:url(../jhgzImages/arrow2.gif);
+}
+#lgc_links #lgc_links_3 ul li{
+	background-image:url(../jhgzImages/arrow3.gif);
+}
+#lgc_links #lgc_links_4 ul li{
+	background-image:url(../jhgzImages/arrow3.gif);
+}
+
+/*------------------所有联接------结束-------------------*/
+
+
+/*------------------主体正文-------------------------*/
+#lgc_main{
+	float:left;
+	width:510px;
+	margin-left:33px;
+	color:#C86615;
+}
+#lgc_main a{
+	color:#DDAF80;
+}
+#lgc_main a:hover{
+	position:relative;
+	top:1px;
+	left:1px;
+	color:#FFFFCC;
+}
+#lgc_main div{
+	margin-top:10px;
+}
+#lgc_main li{
+	line-height:18px;
+}
+#lgc_main form input.myBtnStyle{
+	border:1px solid #C86615;
+	background-color:#000000;
+	color:#C86615;
+	padding-top:1px;
+
+	height:17px;
+	
+}
+#lgc_main form input.myTxtStyle{
+	border:1px solid #C86615;
+	background-color:#000000;
+	color:#C86615;
+	padding-top:1px;
+	width:100px;
+	height:14px;
+}
+/*博客推荐*/
+#lgc_main #lgc_main_1{
+	background-image:url(../jhgzImages/recommendblog.jpg);
+	background-repeat:no-repeat;
+	height:150px;
+	padding-left:140px;
+}
+#lgc_main #lgc_main_1 p{
+	padding:15px 0px 15px 0px;
+}
+#lgc_main #lgc_main_1 p a.jenniferColor1{
+	color:#C86615;
+}
+#lgc_main #lgc_main_1 p a.jenniferColor2{
+	color:#BA4637;
+	margin-left:30px;	
+}
+
+#lgc_main #lgc_main_1 ul{
+	padding-left:8px;	
+}
+#lgc_main #lgc_main_1 ul li{
+	background-image:url(../jhgzImages/arrow4.gif);
+	background-repeat:no-repeat;
+	background-position:left 5px;
+	padding-left:15px;
+}
+#lgc_main #lgc_main_1 ul li a{
+	
+}
+
+/*日期时间*/
+#lgc_main #lgc_main_2,#lgc_main #lgc_main_3,#lgc_main #lgc_main_4,#lgc_footer{
+	border:5px solid #36240C;
+	padding:5px;
+}
+/*相同的样式*/
+#lgc_main #lgc_main_2 ul,#lgc_main #lgc_main_3 ul,#lgc_main #lgc_main_4 ul,#lgc_footer ul{
+	border:1px solid #414141;
+	padding:5px 0px 5px 10px;
+}
+#lgc_main #lgc_main_2 ul{
+	height:30px;
+}
+#lgc_main #lgc_main_2 ul p{
+	display:inline;
+ 	color:#448FC8;
+}
+
+
+#lgc_main #lgc_main_2 ul li{
+	float:left;
+	width:17px;
+}
+
+#lgc_main #lgc_main_2 ul li a{
+	
+}
+/*博客搜索*/
+#lgc_main #lgc_main_3 ul{
+	height:20px;
+}
+#lgc_main #lgc_main_3 ul li{
+	float:left;
+	padding-right:10px;
+
+}
+
+
+/*用户登录*/
+#lgc_main #lgc_main_4 ul li{
+	background-image:url(../jhgzImages/arrow5.gif);
+	background-repeat:no-repeat;
+	background-position:left center;
+	padding:3px 0px 0px 14px;
+}
+
+/*样式推荐*/
+#lgc_main #lgc_main_5{
+	background-image:url(../jhgzImages/recommendart.jpg);
+	background-repeat:no-repeat;
+	padding:70px 0px 0px 5px;
+} 
+/*相同样式*/
+#lgc_main #lgc_main_5 ul li,#lgc_main #lgc_main_6 ul li{
+	background-image:url(../jhgzImages/arrow6.gif);
+	background-repeat:no-repeat;
+	background-position:left center;
+	padding-left:15px;
+}
+#lgc_main #lgc_main_5 ul li a.author2{
+	color:#B1862C;
+}
+/*最新更新*/
+#lgc_main #lgc_main_6{
+	background-image:url(../jhgzImages/newnode.jpg);
+	background-repeat:no-repeat;
+	padding-left:70px;
+}
+#lgc_main #lgc_main_6 ul li{
+
+}
+/*------------------主体正文-------end------------------*/
+
+
+/*------------------页脚-------------------------*/
+#lgc_footer{
+	background-color:#000000;
+	margin-top:20px;
+	text-align:center;
+	color:#D2D287;
+}
+#lgc_footer ul li{
+	line-height:18px;
+}
+#lgc_footer ul li a{
+	color:#D2D287;
+}
+#lgc_footer ul li a.lgc_copyRight{
+	color:#C2C299;
+}
+/*------------------页脚--------end-----------------*/

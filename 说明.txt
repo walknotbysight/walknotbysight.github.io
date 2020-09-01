@@ -1,0 +1,20 @@
+一.布局设计		命名
+0容器			lgc_container
+1导航			lgc_globallink
+2所有联接			lgc_links
+	2.1样式统计		lgc_links_1
+	2.2热门博客		lgc_links_2
+	2.3最新更新		lgc_links_3	
+	2.4最新申请		lgc_links_4
+3主体正文			lgc_main
+	3.1博客推荐		lgc_main_1
+	3.2日期时间		lgc_main_2
+	3.3博客搜索		lgc_main_3
+	3.4用户登录		lgc_main_4
+	3.5样式推荐		lgc_main_5
+	3.6最新更新		lgc_main_6
+4页脚			lgc_footer
+
+
+
+
